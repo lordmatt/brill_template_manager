@@ -18,7 +18,7 @@ if(false==class_exists('brill_template_manager')){
      * 
      * get the template as a string like this:
      * 
-     * $templater->get_template('page', 'user', $args);
+     * $mystring = $templater->get_template('page', 'user', $args);
      * 
      * $args array is an alternative way to pass values $args overwrites same 
      * named vars set before
@@ -27,7 +27,7 @@ if(false==class_exists('brill_template_manager')){
      * 
      * $templater->do_template('page');
      * 
-     * In this example, a sub type of the template was not specified so the 
+     * In this example, a sub-type of the template was not specified so the 
      * general version will be used.
      * 
      * How to format templates
